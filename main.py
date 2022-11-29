@@ -27,7 +27,22 @@ def CheckStrValue(item, val):
 def ErrorLog(item, value, string):
     Error.append({item: f'{value}. {string}'})
 
-listofItems = {'timestamp': 'int', 'item_price': 'int', 'referer': 'url', 'location': 'url', 'item_url': 'url', 'remoteHost': 'str', 'partyId': 'str', 'sessionId': 'str', 'pageViewId': 'str', 'item_id': 'str', 'basket_price': 'str', 'userAgentName': 'str', 'eventType': 'val', 'detectedDuplicate': 'bool', 'detectedCorruption': 'bool', 'firstInSession': 'bool'}
+listofItems = {'timestamp': 'int', \
+               'item_price': 'int', \
+               'referer': 'url', \
+               'location': 'url', \
+               'item_url': 'url', \
+               'remoteHost': 'str', \
+               'partyId': 'str', \
+               'sessionId': 'str', \
+               'pageViewId': 'str', \
+               'item_id': 'str', \
+               'basket_price': 'str', \
+               'userAgentName': 'str', \
+               'eventType': 'val', \
+               'detectedDuplicate': 'bool', \
+               'detectedCorruption': 'bool', \
+               'firstInSession': 'bool'}
 
 Error = []
 for items in templates:
