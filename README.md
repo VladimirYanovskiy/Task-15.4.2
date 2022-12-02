@@ -5,7 +5,7 @@
 
 У вас есть следующие требования к ответу:
 
-timestamp: int
+ timestamp: int
 referer: string (url)
 location: string (url)
 remoteHost: string
