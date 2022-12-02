@@ -21,6 +21,7 @@ detectedDuplicate: bool
 detectedCorruption: bool
 firstInSession: bool
 userAgentName: string
+
 Вот здесь https://github.com/SkillfactoryCoding/QAP/blob/master/json_example_QAP.json можно взять пример JSON с ответами некоего интернет-магазина, составленный по этим правилам.
 
 Вам нужно написать простой тест, который проверяет JSON на правильность полей. То есть проверяет, что каждый объект в JSON:
